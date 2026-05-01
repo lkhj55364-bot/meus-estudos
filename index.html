@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Central de Estudos</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="app-container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2>📚 Estudos</h2>
+
+        <ul id="subject-list"></ul>
+
+        <button onclick="createSubject()">+ Nova Matéria</button>
+    </aside>
+
+    <!-- Conteúdo -->
+    <main class="main">
+
+        <h1 id="title">Bem-vindo</h1>
+
+        <div id="topics"></div>
+
+    </main>
+
+</div>
+
+<input type="file" id="fileInput" accept="application/pdf" hidden>
+
+<script src="script.js"></script>
+</body>
+</html>
